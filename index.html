@@ -10,30 +10,51 @@
 </head>
 
 <body>
-    <h1>welcome user!</h1>
-   <strong>First</strong>leap for a great diet plan! 
-
-    <div class ="container">
-        <h2>Workout Frequency</h2>
-        How many times do you workout for a week? 
-        <select name ="Workout-Frequency">
-            <option value ="">Select</option>cd
-            <option value="0-3">0-3</option>
-            <option value="3-5">3-5</option>
-            <option value="5-7">5-7</option>
-            <button id -"btn">submit</button>
-            <div id ="result"></div>
-        </select>
-
-
-    <div class ="container-2"> 
+    <h1>welcome to Active-prep!</h1>
+  <span> <strong>First</strong> leap for a great diet plan! </span>
+    <div class ="container"> 
         <h2>BMI-calculator</h2>
         Let's get started! 
+        <br>
         <label for ="weight-input" id ="wlabel">Your Weight(kg)</label><input type="text" id="weight-input">
+        <br>
         <label for ="height-input" id ="wlabel">Your Height(kg)</label><input type="text" id="height-input">
+        <br>
         <button id ="btn">Calculate</button>
-        <label for ="bmi-output" id ="bmilabel">Your BMI:</label><input type="text" id="bmi-output">
+        <br>
+        <label for ="bmi-outp  ut" id ="bmilabel">Your BMI:</label><input type="text" id="bmi-output">
+    </div>
+    <br>
+        <div id="table">
+            <table> 
+                <caption> BMI INDEX:</caption>
+                <tr>
+                    <th>Underweight</th>
+                    <th>Healthy</th>
+                    <th>Overweight</th>
+                    <th>Obese</th>
+                </tr>
+                <tr>
+                    <td>Below 18.5</td>
+                    <td>18.5-24.9</td>
+                    <td>25.0-29.9</td>
+                    <td>30.0 and above</td>
+                </tr>
+            </table>
+        </div>
 
+        <div class ="container-2">
+            <h2>Workout Frequency</h2>
+            How many times do you workout for a week? 
+            <select name ="Workout-Frequency">
+                <option value ="">Select</option>cd
+                <option value="0-3">0-3</option>
+                <option value="3-5">3-5</option>
+                <option value="5-7">5-7</option>
+                <button id -"btn">submit</button>
+                <div id ="result"></div>
+            </select>
+        <br>
         <a href="/index2.html">Lets look at the proper diet according to the result!</a>
 
     </main>
